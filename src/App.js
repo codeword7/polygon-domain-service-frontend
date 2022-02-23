@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './styles/App.css';
 import { ethers } from "ethers";
-import twitterLogo from './assets/twitter-logo.svg';
 import polygonLogo from './assets/polygonlogo.png';
 import ethLogo from './assets/ethlogo.png';
 import { networks } from './utils/networks';
@@ -357,7 +356,6 @@ const App = () => {
 				{mints && renderMints()}
 
 				<div className="footer-container">
-					{/* <img alt="Twitter Logo" className="twitter-logo" src={twitterLogo} /> */}
 					<a
 						className="footer-text"
 						href={WEB_LINK}
