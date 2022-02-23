@@ -8,8 +8,10 @@ import { networks } from './utils/networks';
 import contractABI from './utils//contractABI.json';
 
 // Constants
-const TWITTER_HANDLE = 'codeword07';
-const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
+// const TWITTER_HANDLE = 'codeword7';
+const NAME = 'Neeraj Kumar';
+// const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
+const WEB_LINK = `https://codeword7.dev`;
 
 const tld = '.panda';
 const CONTRACT_ADDRESS = '0x30ADE0cC7dC6aFD8616ce75F27cA4808eEf8d4F1';
@@ -355,13 +357,13 @@ const App = () => {
 				{mints && renderMints()}
 
 				<div className="footer-container">
-					<img alt="Twitter Logo" className="twitter-logo" src={twitterLogo} />
+					{/* <img alt="Twitter Logo" className="twitter-logo" src={twitterLogo} /> */}
 					<a
 						className="footer-text"
-						href={TWITTER_LINK}
+						href={WEB_LINK}
 						target="_blank"
 						rel="noreferrer"
-					>{`built with @${TWITTER_HANDLE}`}</a>
+					>{`built by @${NAME}`}</a>
 				</div>
 			</div>
 		</div>
