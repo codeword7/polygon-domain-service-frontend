@@ -10,7 +10,7 @@ import contractABI from './utils//contractABI.json';
 // const TWITTER_HANDLE = 'codeword7';
 const NAME = 'Neeraj Kumar';
 // const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
-const WEB_LINK = `https://codeword7.dev`;
+const WEB_LINK = `https://neerajkumar.dev`;
 
 const tld = '.panda';
 const CONTRACT_ADDRESS = '0x30ADE0cC7dC6aFD8616ce75F27cA4808eEf8d4F1';
